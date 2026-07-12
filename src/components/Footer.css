@@ -1,0 +1,96 @@
+.footer {
+  background: var(--green-950);
+  color: rgba(255,255,255,.72);
+  padding: 0;
+  margin-top: auto;
+  border-top: 1px solid rgba(255,255,255,.08);
+}
+
+.footer-inner { padding: 2.5rem 1.5rem 1.25rem; }
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(255,255,255,.1);
+}
+
+/* Brand col */
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: .65rem;
+  color: var(--white);
+  font-size: 1.15rem;
+  margin-bottom: .6rem;
+}
+.footer-brand-name { font-size: 1.15rem; }
+.footer-brand-name strong { color: var(--green-400); font-weight: 800; }
+
+.footer-tagline {
+  font-size: .88rem;
+  color: rgba(255,255,255,.55);
+  line-height: 1.6;
+  margin-bottom: .85rem;
+  max-width: 280px;
+}
+
+.footer-powered {}
+.ibm-badge {
+  background: rgba(13,75,216,.35);
+  border: 1px solid rgba(13,75,216,.5);
+  color: #78b4e8;
+  font-size: .78rem;
+  font-weight: 600;
+  padding: .28rem .8rem;
+  border-radius: 20px;
+}
+
+/* Nav cols */
+.footer-nav-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+.footer-nav-col {
+  display: flex;
+  flex-direction: column;
+  gap: .55rem;
+}
+.footer-col-title {
+  font-size: .75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .8px;
+  color: rgba(255,255,255,.45);
+  margin-bottom: .2rem;
+}
+.footer-nav-col a {
+  font-size: .88rem;
+  color: rgba(255,255,255,.62);
+  transition: color var(--transition);
+}
+.footer-nav-col a:hover { color: var(--white); }
+
+/* Bottom bar */
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: .75rem;
+}
+.footer-copy  { font-size: .8rem; color: rgba(255,255,255,.35); }
+.footer-legal {
+  display: flex;
+  gap: 1.25rem;
+  font-size: .8rem;
+  color: rgba(255,255,255,.35);
+}
+
+@media (max-width: 700px) {
+  .footer-top { grid-template-columns: 1fr; gap: 1.5rem; }
+  .footer-bottom { flex-direction: column; align-items: flex-start; }
+}
