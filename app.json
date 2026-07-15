@@ -1,0 +1,16 @@
+{
+  "name": "Smart Farming AI Assistant",
+  "description": "An AI-powered Smart Farming AI Assistant built using IBM watsonx Orchestrate and IBM Granite.",
+  "version": "1.0.0",
+  "author": "Uday Raju Bankar",
+  "technologies": [
+    "IBM watsonx Orchestrate",
+    "IBM Granite",
+    "React",
+    "Vite",
+    "GitHub",
+    "Vercel"
+  ],
+  "repository": "https://github.com/udaybankar/smart-farming-ai-assistant",
+  "website": "https://smart-farming-ai-assistant.vercel.app"
+}
